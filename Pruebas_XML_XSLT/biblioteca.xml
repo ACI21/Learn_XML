@@ -1,0 +1,38 @@
+<!-- XML -->
+<bookstore>
+    <book category="action">
+        <tittle lang="es"> El principito </tittle>
+        <author> Saint-Exupery </author>
+        <year> 2024 </year>
+        <price> 25 </price>
+    </book>
+
+    <book category="fantasy">
+        <tittle lang="jp"> El gordito </tittle>
+        <author> Saint-çalvaro </author>
+        <year> 1946 </year>
+        <price> 75 </price>
+    </book>
+
+    <book category="non-fiction">
+        <tittle lang="en"> El delgadito </tittle>
+        <author> Saint-andres </author>
+        <year> 1953 </year>
+        <price> 28 </price>
+    </book>
+</bookstore>
+
+<!-- XPATH -->
+<!-- 1.Selecciona todos los titulos de los libros-->
+/bookstore/book/title
+<!-- 2.Selecciona el primer titulo del libro-->
+/bookstore/book[1]/title
+<!-- 3.Seleccionalos libros en ingles-->
+/bookstore/book/title[@lang='en']
+<!-- 4.Selecciona los libros de categoria fantastica-->
+/booksotre/book[@category='fantasy']
+<!-- 5.Selecciona los libros de categoria fantastica y su precio-->
+/booksotre/book[@category='fantasy']/price
+<!-- 6.Selecciona los libros cuya publicacion sea anterior al 2020-->
+/bookstore/book[year < 2020]
+

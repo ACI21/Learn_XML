@@ -1,0 +1,50 @@
+<artistas>
+    <artista id="a101" sexo="H" mas="https://es.wikipedia.org/wiki/Diego_Vel%C3%A1zquez">
+        <nombre>Diego</nombre>
+        <apellido>Velázquez</apellido>
+        <nacimiento>1599</nacimiento>
+        <fallecimiento>1660</fallecimiento>
+        <pais>España</pais>
+    </artista>
+    <artista id="a102" sexo="H" mas="https://es.wikipedia.org/wiki/Caravaggio">
+        <nombre>Michelangelo</nombre>
+        <apellido>Caravaggio</apellido>
+        <nacimiento>1571</nacimiento>
+        <pais>Italia</pais>
+    </artista>
+    <artista id="a103" sexo="M" mas="https://es.wikipedia.org/wiki/Herrada_de_Landsberg">
+        <nombre>Herrada</nombre>
+        <apellido>de Landsberg</apellido>
+        <nacimiento>1125</nacimiento>
+        <fallecimiento>1195</fallecimiento>
+        <pais>Alsacia</pais>
+    </artista>
+    <artista id="a104" sexo="M" mas="https://es.wikipedia.org/wiki/Mary_Cassatt">
+        <nombre>Mary</nombre>
+        <apellido>Cassatt </apellido>
+        <nacimiento>1844</nacimiento>
+        <fallecimiento>1926</fallecimiento>
+        <pais>Francia</pais>
+    </artista>
+    <artista id="a105" sexo="H" mas="https://es.wikipedia.org/wiki/Francisco_de_Goya">
+        <nombre>Francisco</nombre>
+        <apellido>de Goya</apellido>
+        <nacimiento>1746</nacimiento>
+        <fallecimiento>1828</fallecimiento>
+        <pais>España</pais>
+    </artista>
+    <artista id="a106" sexo="M" mas="https://es.wikipedia.org/wiki/Elizabeth_Nourse">
+        <nombre>Elizabeth </nombre>
+        <apellido>Nourse  </apellido>
+        <nacimiento>1859</nacimiento>
+        <fallecimiento>1938</fallecimiento>
+        <pais>Francia</pais>
+    </artista>
+    <artista id="a105" sexo="H" mas="https://es.wikipedia.org/wiki/%C3%89douard_Manet">
+        <nombre>Edouard </nombre>
+        <apellido>Manet </apellido>
+        <nacimiento>1832</nacimiento>
+        <fallecimiento>1883</fallecimiento>
+        <pais>Francia</pais>
+    </artista>
+</artistas>
