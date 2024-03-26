@@ -5,10 +5,10 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title style="color:purple;">Lista de artistas femeninas</title>
+                <title>Lista de artistas femeninas</title>
             </head>
             <body>
-                <h1>Lista de artistas femeninas</h1>
+                <h1 style="color:purple;">Lista de artistas femeninas</h1>
                 <ul>
                     <!-- Aplicar la plantilla a los artistas femeninas que vivieron más de 70 años -->
                     <xsl:apply-templates select="artistas/artista[@sexo='M' and (fallecimiento - nacimiento) &gt; 70]">
